@@ -1,0 +1,43 @@
+.password-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background 0.5s ease;
+    }
+    .password-card {
+    max-width: 600px;
+    padding: 40px;
+    border-radius: 15px;
+    background: rgb(64, 108, 189);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    }
+    .password-text {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #e9e3e3;
+    line-height: 1.4;
+    }
+    .inspire-button {
+    padding: 12px 30px;
+    font-size: 1rem;
+    background: linear-gradient(45deg, #2a9a19 0%, #044144 100%);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(176, 215, 5, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-weight: 600;
+    }
+    .inspire-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(19, 116, 219, 0.15);
+    }
+    .footer-text {
+    margin-top: 40px; color: #666; font-size: 0.9rem;
+    }
